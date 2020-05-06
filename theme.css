@@ -99,7 +99,7 @@ QLineEdit
 QLineEdit:hover,
 QLineEdit:focus
 {
-    border: 1px solid #F07178;
+    border: 1px solid #FF5370;
 }
 
 QTableView
@@ -120,7 +120,7 @@ QHeaderView::section
     background-color: #212121;
     border: none;
     padding: 0 10px;
-    border-bottom: 2px solid #434343;
+    border-bottom: 1px solid #191919;
 }
 
 QHeaderView:horizontal::section
@@ -196,6 +196,31 @@ QToolBar
     border: none;
 }
 
+
+QToolBar::handle:horizontal
+{
+    image: url("$RELPATH/icons/kebab-vertical.png");
+}
+
+/*
+QToolBar::handle:vertical
+{
+    image: url("$RELPATH/icons/kebab-vertical.png");
+}
+*/
+
+QToolBar::separator:horizontal
+{
+    image: url("$RELPATH/icons/kebab-vertical.png");
+}
+
+/*
+QToolBar::separator:vertical
+{
+    image: url("$RELPATH/icons/kebab-vertical.png");
+}
+*/
+
 QPushButton
 {
     background-color: transparent;
@@ -223,6 +248,11 @@ RegJumpButton
     padding: 0;
     border: none;
 }
+
+/* 
+Docks handle the function list header
+TODO: fix position of buttons
+*/
 
 QPushButton.DockWidgetTitleButton
 {
@@ -357,6 +387,7 @@ QTableView::item:selected
 {
     color: #F1EFEC;
     background-color: #434343;
+    outline: 0;
 }
 
 QToolTip,
@@ -642,8 +673,8 @@ navband_t
     qproperty-function: #DF9291;
     qproperty-code: #F07178;
     qproperty-data: #F0D7A4;
-    qproperty-undefined: #89DDFF;
-    qproperty-extern: #D1B8D4;
+    qproperty-undefined: #D1B8D4;
+    qproperty-extern: #89DDFF;
     qproperty-error: #FF5370;
     qproperty-gap: #434343;
     qproperty-cursor: #B59180;
