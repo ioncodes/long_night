@@ -196,7 +196,6 @@ QToolBar
     border: none;
 }
 
-
 QToolBar::handle:horizontal
 {
     image: url("$RELPATH/icons/kebab-vertical.png");
