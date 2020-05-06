@@ -302,6 +302,7 @@ QComboBox::drop-down
 QComboBox QAbstractItemView
 {
     border: 1px solid #373737;
+    /*selection-background-color: #FF5370;*/
 }
 
 QComboBox:!editable
