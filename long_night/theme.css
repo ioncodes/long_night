@@ -47,6 +47,16 @@ QMenu
     border: none;
 }
 
+QMenu:icon
+{
+    padding-left: 20px;
+}
+
+QMenu:right-arrow
+{
+    image: url("$RELPATH/icons/triangle-right.png");
+}
+
 QMenuBar,
 QMenuBar::item
 {
@@ -367,7 +377,7 @@ QComboBox::drop-down
 QComboBox QAbstractItemView
 {
     border: 1px solid #373737;
-    /*selection-background-color: #FF5370;*/
+    selection-background-color: #434343;
 }
 
 QComboBox:!editable
