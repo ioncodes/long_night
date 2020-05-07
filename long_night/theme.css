@@ -2,6 +2,7 @@
 
 /* TODO Remove white line between assembly and tabs */
 /* TODO Dock lines reappear when undocked and then docked. Do they look bad tho? */
+/* TODO Comment window has no borders around input field */
 
 QWidget
 {
@@ -40,6 +41,8 @@ QTextEdit,
 QPlainTextEdit
 {
     background-color: #212121;
+    border: 1px solid #373737;
+    border-radius: 2px;
 }
 
 QMenu
@@ -154,6 +157,8 @@ CustomIDAMemo,
 EditContainer
 {
     background-color: #212121;
+    border: 1px solid #373737;
+    border-radius: 2px;
 }
 
 IDAView
