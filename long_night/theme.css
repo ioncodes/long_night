@@ -199,9 +199,9 @@ QScrollBar::handle:horizontal
 
 QScrollBar::handle
 {
-    background-color: #F07178;
+    background-color: #FF5370;
     margin: 3px;
-    border-radius: 4px;
+    border-radius: 2px;
 }
 
 QToolBar
