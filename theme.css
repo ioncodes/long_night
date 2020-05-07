@@ -251,20 +251,88 @@ RegJumpButton
     border: none;
 }
 
-QPushButton.DockWidgetTitleButton
-{
-    border: none;
-    min-width: 15px;
-    margin: 5px;
-    padding: 3px;
-}
-
 DockWidgetTitle
 {
-    min-height: 24px;
-    padding-bottom: 5px;
+    color: #F1EFEC;
+    background: transparent;
+    min-height: 0px;
+    height: 25px;
+    padding: 0px 10px 0px 10px;
     border: none;
-    border-top: 1px solid #212121;
+}
+
+DockWidgetTitle DockWidgetTitleButton
+{   
+    color: #F1EFEC;
+    background: transparent;
+    border: none;
+    min-height: 0;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+}
+
+DockWidgetTitle DockWidgetTitleButton[toolTip="Close"]
+{
+    qproperty-icon: url("$RELPATH/icons/close.png");
+    icon-size: 16px;
+}
+
+DockWidgetTitle DockWidgetTitleButton[toolTip="Fullscreen"]
+{
+    qproperty-icon: url("$RELPATH/icons/chrome-maximize.png");
+    icon-size: 16px;
+}
+
+DockWidgetTitle DockWidgetTitleButton[toolTip="Float"]
+{
+    qproperty-icon: url("$RELPATH/icons/chrome-minimize.png");
+    icon-size: 16px;
+}
+
+IDADockWidget[objectName="Output window"]
+{
+    qproperty-windowIcon: url("$RELPATH/icons/blank.png");
+}
+
+IDADockWidget[objectName="Output window"] DockWidgetTitle
+{
+    background: #212121;
+    color: #F1EFEC;
+    margin: 0;
+}
+
+IDADockWidget[objectName="Output window"] QTextEdit:focus
+{
+    border: 1px solid #F07178;
+}
+
+IDADockWidget[objectName="Output window"] QLineEdit
+{
+    padding-bottom: 2px;
+}
+
+IDADockWidget[objectName="Output window"] QGroupBox
+{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+IDADockWidget[objectName="Output window"] QGroupBox QPushButton
+{
+    border: none;
+    min-width: 70px;
+}
+
+IDADockWidget[objectName="Output window"] QGroupBox QPushButton:hover
+{
+    border: none;
+}
+
+IDADockWidget[objectName="Output window"] QGroupBox QPushButton:focus
+{
+    border: none;
 }
 
 QComboBox
