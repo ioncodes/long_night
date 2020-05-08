@@ -22,3 +22,4 @@ C:\Program Files\IDA 7.2\plugins\idaskins\themes\
 
 ## Credits
 * [Justas](https://github.com/JustasMasiulis) for helping me out with the CSS!
+* [codicon](https://github.com/microsoft/vscode-codicons) for the amazing icons!
