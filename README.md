@@ -1,5 +1,5 @@
 # long_night
-A dark themed theme for your long IDA session powered by a colorful pastel pallete. `long_night` supports IDA 7.3+ out of the box and can be used with older versions through the plugin [IDASkins](https://github.com/zyantific/IDASkins).
+A dark theme for your long IDA session powered by a colorful pastel pallete. `long_night` supports IDA 7.3+ out of the box and can be used with older versions through the plugin [IDASkins](https://github.com/zyantific/IDASkins).
 
 ## Screenshots
 ![linear](images/linear.png)
