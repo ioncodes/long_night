@@ -3,6 +3,6 @@
     "author": "Layle",
     "version": "v1.0",
     "preview_image": "preview.png",
-    "clr_file": "",
+    "clr_file": "theme.clr",
     "qss_file": "theme.css"
 }
