@@ -1,8 +1,8 @@
 {
     "theme_name": "long_night by Layle",
     "author": "Layle",
-    "version": "v1.0",
+    "version": "v1.1",
     "preview_image": "preview.png",
-    "clr_file": "theme.clr",
-    "qss_file": "theme.css"
+    "clr_file": "theme72.clr",
+    "qss_file": "theme72.css"
 }
