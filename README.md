@@ -8,6 +8,8 @@ A dark theme for your long IDA session powered by a colorful pastel pallete. `lo
 
 ![decompilation](images/decompilation.png)
 
+![IDA 7.2](images/ida72.png)
+
 ## Usage
 Official releases can be found [here](https://github.com/ioncodes/long_night/releases). To get a version that is in development you can clone this repository and copy the folder called `long_night`.  
 To install the theme copy the folder called `long_night` to one of the following paths:
