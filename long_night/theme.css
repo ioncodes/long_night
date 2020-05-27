@@ -587,6 +587,7 @@ CustomIDAMemo
     qproperty-line-pfx-unexplored: #4A4A4A;
     qproperty-line-pfx-extern: #4A4A4A;
     qproperty-line-pfx-current-line: #434343;
+    qproperty-line-pfx-current-item: #434343;
     qproperty-line-pfx-lumina: #4A4A4A;
     qproperty-graph-bg-top: #434343;
     qproperty-graph-bg-bottom: #434343;
@@ -648,6 +649,7 @@ CustomIDAMemo[debugging="true"]
     qproperty-line-pfx-unexplored: #4A4A4A;
     qproperty-line-pfx-extern: #4A4A4A;
     qproperty-line-pfx-current-line: #434343;
+    qproperty-line-pfx-current-item: #434343;
     qproperty-line-pfx-lumina: #4A4A4A;
     qproperty-graph-bg-top: #434343;
     qproperty-graph-bg-bottom: #434343;
@@ -709,6 +711,7 @@ CustomIDAMemo[hints="true"]
     qproperty-line-pfx-unexplored: #4A4A4A;
     qproperty-line-pfx-extern: #4A4A4A;
     qproperty-line-pfx-current-line: #434343;
+    qproperty-line-pfx-current-item: #434343;
     qproperty-line-pfx-lumina: #4A4A4A;
     qproperty-graph-bg-top: #434343;
     qproperty-graph-bg-bottom: #434343;
