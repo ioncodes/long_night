@@ -2,7 +2,7 @@
 A dark theme for your long reverse engineering session powered by a colorful pastel pallete. `long_night` supports IDA 7.3+ out of the box and can be used with older versions through the plugin [IDASkins](https://github.com/zyantific/IDASkins). `long_night` is an ongoing project that will be extended to support different platforms and tools.
 
 ## Support
-* [IDA Pro (IDASkins, IDA 7.3+)](https://www.hex-rays.com/)
+* IDA Pro ([IDASkins](https://github.com/zyantific/IDASkins), [IDA 7.3+](https://www.hex-rays.com/))
 * [Lighthouse](https://github.com/gaasedelen/lighthouse)
 
 ## Screenshots
