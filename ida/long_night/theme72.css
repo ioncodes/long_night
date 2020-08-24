@@ -57,7 +57,7 @@ QMenu:icon
 
 QMenu:right-arrow
 {
-    image: url("$RELPATH/icons/triangle-right.png");
+    image: url("<SKINDIR>/icons/triangle-right.png");
 }
 
 QMenuBar,
@@ -216,25 +216,25 @@ QToolBar
 
 QToolBar::handle:horizontal
 {
-    image: url("$RELPATH/icons/kebab-vertical.png");
+    image: url("<SKINDIR>/icons/kebab-vertical.png");
 }
 
 /*
 QToolBar::handle:vertical
 {
-    image: url("$RELPATH/icons/kebab-vertical.png");
+    image: url("<SKINDIR>/icons/kebab-vertical.png");
 }
 */
 
 QToolBar::separator:horizontal
 {
-    image: url("$RELPATH/icons/kebab-vertical.png");
+    image: url("<SKINDIR>/icons/kebab-vertical.png");
 }
 
 /*
 QToolBar::separator:vertical
 {
-    image: url("$RELPATH/icons/kebab-vertical.png");
+    image: url("<SKINDIR>/icons/kebab-vertical.png");
 }
 */
 
@@ -289,25 +289,25 @@ DockWidgetTitle DockWidgetTitleButton
 
 DockWidgetTitle DockWidgetTitleButton[toolTip="Close"]
 {
-    qproperty-icon: url("$RELPATH/icons/close.png");
+    qproperty-icon: url("<SKINDIR>/icons/close.png");
     icon-size: 16px;
 }
 
 DockWidgetTitle DockWidgetTitleButton[toolTip="Fullscreen"]
 {
-    qproperty-icon: url("$RELPATH/icons/chrome-maximize.png");
+    qproperty-icon: url("<SKINDIR>/icons/chrome-maximize.png");
     icon-size: 16px;
 }
 
 DockWidgetTitle DockWidgetTitleButton[toolTip="Float"]
 {
-    qproperty-icon: url("$RELPATH/icons/chrome-minimize.png");
+    qproperty-icon: url("<SKINDIR>/icons/chrome-minimize.png");
     icon-size: 16px;
 }
 
 IDADockWidget[objectName="Output window"]
 {
-    qproperty-windowIcon: url("$RELPATH/icons/blank.png");
+    qproperty-windowIcon: url("<SKINDIR>/icons/blank.png");
 }
 
 IDADockWidget[objectName="Output window"] DockWidgetTitle
@@ -392,7 +392,7 @@ QComboBox:!editable
 
 QComboBox::down-arrow
 {
-    image: url("$RELPATH/icons/chevron-down.png");
+    image: url("<SKINDIR>/icons/chevron-down.png");
 }
 
 IDADockWidget > QWidget > QAbstractButton
@@ -514,12 +514,12 @@ QTabBar::tab:selected
 
 QTabBar::close-button
 {
-    image: url("$RELPATH/icons/close.png"); 
+    image: url("<SKINDIR>/icons/close.png"); 
 }
 
 QTabBar::close-button:hover
 {
-    image: url("$RELPATH/icons/close-hover.png");
+    image: url("<SKINDIR>/icons/close-hover.png");
 }
 
 QSpinBox
@@ -587,6 +587,7 @@ CustomIDAMemo
     qproperty-line-pfx-unexplored: #4A4A4A;
     qproperty-line-pfx-extern: #4A4A4A;
     qproperty-line-pfx-current-line: #434343;
+    qproperty-line-pfx-current-item: #434343;
     qproperty-line-pfx-lumina: #4A4A4A;
     qproperty-graph-bg-top: #434343;
     qproperty-graph-bg-bottom: #434343;
@@ -602,59 +603,61 @@ CustomIDAMemo
 
 CustomIDAMemo[debugging="true"]
 {
-    qproperty-line-fg-default: #353535;
-    qproperty-line-fg-regular-comment: #353535;
-    qproperty-line-fg-repeatable-comment: #353535;
-    qproperty-line-fg-automatic-comment: #353535;
-    qproperty-line-fg-insn: #F07178;
-    qproperty-line-fg-dummy-data-name: #EEFFFF;
-    qproperty-line-fg-regular-data-name: #89DDFF;
-    qproperty-line-fg-demangled-name: #FFCB6B;
-    qproperty-line-fg-punctuation: #EEFFFF;
-    qproperty-line-fg-charlit-in-insn: #C3E88D;
+    qproperty-line-fg-default: #7F7E74;
+    qproperty-line-fg-regular-comment: #7F7E74;
+    qproperty-line-fg-repeatable-comment: #7F7E74;
+    qproperty-line-fg-automatic-comment: #7F7E74;
+    qproperty-line-fg-insn: #DF9291;
+    qproperty-line-fg-dummy-data-name: #D1B8D4;
+    qproperty-line-fg-regular-data-name: #AAA99F;
+    qproperty-line-fg-demangled-name: #F0D7A4;
+    qproperty-line-fg-punctuation: #D0CFC8;
+    qproperty-line-fg-charlit-in-insn: #B5D1B0;
     qproperty-line-fg-numlit-in-insn: #F78C6C;
-    qproperty-line-fg-void-opnd: #F78C6C;
-    qproperty-line-fg-code-xref: #FFCB6B;
-    qproperty-line-fg-data-xref: #FFCB6B;
-    qproperty-line-fg-code-xref-to-tail: #FFCB6B;
-    qproperty-line-fg-data-xref-to-tail: #FFCB6B;
-    qproperty-line-fg-error: #FF5370;
-    qproperty-line-fg-opcode-byte: #C792EA;
-    qproperty-line-fg-extra-line: #353535;
+    qproperty-line-fg-void-opnd: #B59180;
+    qproperty-line-fg-code-xref: #F0D7A4;
+    qproperty-line-fg-data-xref: #F0D7A4;
+    qproperty-line-fg-code-xref-to-tail: #F0D7A4;
+    qproperty-line-fg-data-xref-to-tail: #F0D7A4;
+    qproperty-line-fg-error: #B59180;
+    qproperty-line-fg-opcode-byte: #F0D7A4;
+    qproperty-line-fg-extra-line: #7F7E74;
     qproperty-line-fg-alt-opnd: #F78C6C;
-    qproperty-line-fg-hidden: #EEFFFF;
-    qproperty-line-fg-libfunc: #82AAFF;
-    qproperty-line-fg-locvar: #C3E88D;
-    qproperty-line-fg-dummy-code-name: #EEFFFF;
+    qproperty-line-fg-hidden: #D1B8D4;
+    qproperty-line-fg-libfunc: #93AFCF;
+    qproperty-line-fg-locvar: #DF9291;
+    qproperty-line-fg-dummy-code-name: #F07178;
     qproperty-line-fg-asm-directive: #F07178;
-    qproperty-line-fg-macro: #B2CCD6;
-    qproperty-line-fg-strlit-in-data: #C3E88D;
-    qproperty-line-fg-charlit-in-data: #C3E88D;
-    qproperty-line-fg-numlit-in-data: #F78C6C;
-    qproperty-line-fg-keyword: #FFCB6B;
-    qproperty-line-fg-register-name: #C792EA;
-    qproperty-line-fg-import-name: #82AAFF;
-    qproperty-line-fg-segment-name: #C792EA;
-    qproperty-line-fg-dummy-unknown-name: #EEFFFF;
-    qproperty-line-fg-code-name: #89DDFF;
-    qproperty-line-fg-unknown-name: #89DDFF;
-    qproperty-line-fg-collapsed-line: #353535;
+    qproperty-line-fg-macro: #F07178;
+    qproperty-line-fg-strlit-in-data: #B5D1B0;
+    qproperty-line-fg-charlit-in-data: #B5D1B0;
+    qproperty-line-fg-numlit-in-data: #E9B08E;
+    qproperty-line-fg-keyword: #F07178;
+    qproperty-line-fg-register-name: #D1B8D4;
+    qproperty-line-fg-import-name: #93AFCF;
+    qproperty-line-fg-segment-name: #D1B8D4;
+    qproperty-line-fg-dummy-unknown-name: #D1B8D4;
+    qproperty-line-fg-code-name: #AAA99F;
+    qproperty-line-fg-unknown-name: #AAA99F;
+    qproperty-line-fg-collapsed-line: #7F7E74;
+    qproperty-line-bg-default: #212121;
     qproperty-line-bg-selected: #353535;
-    qproperty-line-pfx-libfunc: #89DDFF;
-    qproperty-line-pfx-func: #89DDFF;
-    qproperty-line-pfx-insn: #353535;
-    qproperty-line-pfx-data: #EEFFFF;
-    qproperty-line-pfx-unexplored: #FFCB6B;
-    qproperty-line-pfx-extern: #C3E88D;
-    qproperty-line-pfx-current-line: #FF5370;
-    qproperty-line-pfx-lumina: #89DDFF;
-    qproperty-graph-bg-top: #353535;
-    qproperty-graph-bg-bottom: #4A4A4A;
+    qproperty-line-pfx-libfunc: #4A4A4A;
+    qproperty-line-pfx-func: #4A4A4A;
+    qproperty-line-pfx-insn: #4A4A4A;
+    qproperty-line-pfx-data: #4A4A4A;
+    qproperty-line-pfx-unexplored: #4A4A4A;
+    qproperty-line-pfx-extern: #4A4A4A;
+    qproperty-line-pfx-current-line: #434343;
+    qproperty-line-pfx-current-item: #434343;
+    qproperty-line-pfx-lumina: #4A4A4A;
+    qproperty-graph-bg-top: #434343;
+    qproperty-graph-bg-bottom: #434343;
     qproperty-graph-node-title-normal: #353535;
     qproperty-graph-node-title-selected: #F78C6C;
-    qproperty-graph-node-title-current: #FF5370;
-    qproperty-graph-edge-normal: #82AAFF;
-    qproperty-graph-edge-yes: #C3E88D;
+    qproperty-graph-node-title-current: #B59180;
+    qproperty-graph-edge-normal: #93AFCF;
+    qproperty-graph-edge-yes: #B5D1B0;
     qproperty-graph-edge-no: #F07178;
     qproperty-graph-edge-current: #FF5370;
     qproperty-line-bg-highlight: #353535;
@@ -708,6 +711,7 @@ CustomIDAMemo[hints="true"]
     qproperty-line-pfx-unexplored: #4A4A4A;
     qproperty-line-pfx-extern: #4A4A4A;
     qproperty-line-pfx-current-line: #434343;
+    qproperty-line-pfx-current-item: #434343;
     qproperty-line-pfx-lumina: #4A4A4A;
     qproperty-graph-bg-top: #434343;
     qproperty-graph-bg-bottom: #434343;
