@@ -276,7 +276,7 @@ DockWidgetTitle
     border: none;
 }
 
-DockWidgetTitle DockWidgetTitleButton
+DockWidgetTitle QPushButton
 {   
     color: #F1EFEC;
     background: transparent;
@@ -287,19 +287,19 @@ DockWidgetTitle DockWidgetTitleButton
     padding: 0;
 }
 
-DockWidgetTitle DockWidgetTitleButton[toolTip="Close"]
+DockWidgetTitle QPushButton[toolTip="Close"]
 {
     qproperty-icon: url("$RELPATH/icons/close.png");
     icon-size: 16px;
 }
 
-DockWidgetTitle DockWidgetTitleButton[toolTip="Fullscreen"]
+DockWidgetTitle QPushButton[toolTip="Fullscreen"]
 {
     qproperty-icon: url("$RELPATH/icons/chrome-maximize.png");
     icon-size: 16px;
 }
 
-DockWidgetTitle DockWidgetTitleButton[toolTip="Float"]
+DockWidgetTitle QPushButton[toolTip="Float"]
 {
     qproperty-icon: url("$RELPATH/icons/chrome-minimize.png");
     icon-size: 16px;
