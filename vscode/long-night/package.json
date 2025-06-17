@@ -1,0 +1,21 @@
+{
+  "name": "long-night",
+  "displayName": "Long Night",
+  "description": "A collection of themes based on pastel colors, created for reverse engineers",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Long Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Long Night-color-theme.json"
+      }
+    ]
+  }
+}
